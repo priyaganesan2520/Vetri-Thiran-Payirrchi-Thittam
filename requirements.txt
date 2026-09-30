@@ -1,0 +1,19 @@
+# EduGenie: Google Gemini Powered Learning Assistant Dependencies
+
+# Backend & Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+jinja2>=3.1.2
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Google Gemini API SDKs
+google-genai>=2.3.0
+google-generativeai>=0.8.0
+
+# Local AI Model (LaMini-Flan-T5-783M) & CPU Inference
+transformers>=4.36.0
+torch>=2.1.0
+sentencepiece>=0.1.99
+protobuf>=4.25.0
